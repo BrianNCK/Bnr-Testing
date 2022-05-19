@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.6.3.55 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132974028818241043" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132974021418040276"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132974021418140015"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132974051189473246" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="132974021424203784" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132974021424133973"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132974021424173870"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132974021424193819"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="132974021427938696" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132974021427878788"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132974021427908694"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132974021427928909"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="132974021430751086" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132974021430691246"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132974021430721165"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132974021430751086"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="132974021433533642" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132974021433473806"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132974021433493751"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132974021433523670"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsBrStr\binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="132974051189333597" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="132974051189273771"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="132974051189303773"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="132974051189333597"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\Package.pkg"
+    LogicalPath="RevInfo"
+    Type="Package"
+    LastWriteTime="132844904100000000" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\getRevInfo.sh"
+    LogicalPath="RevInfo.getRevInfo.sh"
+    Type="File"
+    LastWriteTime="132847495760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo.var"
+    LogicalPath="RevInfo.RevInfo.var"
+    Type="File"
+    LastWriteTime="132974150196219850"
+    Private="true" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\IEC.prg"
+    LogicalPath="RevInfo.RevInfo"
+    Type="Program"
+    LastWriteTime="132844905420000000" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Main.st"
+    LogicalPath="RevInfo.RevInfo.Main.st"
+    Type="File"
+    LastWriteTime="132857830640000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Types.typ"
+    LogicalPath="RevInfo.RevInfo.Types.typ"
+    Type="File"
+    LastWriteTime="132806102440000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Variables.var"
+    LogicalPath="RevInfo.RevInfo.Variables.var"
+    Type="File"
+    LastWriteTime="132806139480000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132974021454148744" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132974021436375200"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132007326100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Cpu.pkg"
+    LogicalPath="Config1.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="132974135793019776" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Cpu.sw"
+    LogicalPath="Config1.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="132974051190479854"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Cpu.per"
+    LogicalPath="Config1.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="132974021437579049"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\IoMap.iom"
+    LogicalPath="Config1.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="132974021437588785"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\PvMap.vvm"
+    LogicalPath="Config1.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132974021437598759"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity"
+    Type="Package"
+    LastWriteTime="132974021437867475" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="132974021437867475" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.TextSystem"
+    Type="Package"
+    LastWriteTime="132974021437917334" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.UnitSystem"
+    Type="Package"
+    LastWriteTime="132974021437957228" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132974021438495786" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132974021438096853" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="132974021438056959"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="132974021438086882"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132974021438386080" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132974021438236485" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132974021438186613" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132974021438226511" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132974021438306293" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132974021438306293" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132974021438336212" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132974021438376106" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132974021438425973" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="132974021438485813" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="132974021438485813"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappControl"
+    Type="Package"
+    LastWriteTime="132974021438535688" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappMotion"
+    Type="Package"
+    LastWriteTime="132974021438585555" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappServices"
+    Type="Package"
+    LastWriteTime="132974021438625449" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappView"
+    Type="Package"
+    LastWriteTime="132974021438665337" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappCockpit"
+    Type="Package"
+    LastWriteTime="132974021438705230" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132974150177966777"
+    Private="false" />
+</Objects>

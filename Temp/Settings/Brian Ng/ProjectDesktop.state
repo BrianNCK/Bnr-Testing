@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="6154"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Virtual\BnR_Testing.ose"><ConfigurationFile Placement="\Physical\Config1\Hardware.hwl,Config1,3,44,0,1,-1,-1,-1,-1,2,30,1061,569"/><ConfigurationFile Placement="\Physical\Config1\X20CP1586\Cpu.sw,,1,44,0,1,-1,-1,-1,-1,2,30,1061,569"/><ConfigurationFile Placement="\Logical\RevInfo\RevInfo.var,RevInfo,1,44,0,1,-1,-1,-1,-1,2,30,1061,569"/><ConfigurationFile Placement="\Virtual\BnR_Testing.ose,,0,44,0,1,-1,-1,-1,-1,2,30,1061,569"/></ConfigurationFiles></Project>

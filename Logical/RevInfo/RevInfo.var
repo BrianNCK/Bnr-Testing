@@ -1,0 +1,10 @@
+VAR CONSTANT
+	revision : STRING[80] := 'dcccbe1';
+	revisionDate : STRING[80] := '2022-05-19 11:10:01 +0800';
+	revisionAuthor : STRING[80] := 'Brian Ng';
+	branchName : STRING[80] := 'main';
+	uncommittedChanges : STRING[80] := ' 91 files changed, 4920 deletions(-)';
+	buildDate  : STRING[80] := '2022-05-19 14:23:39 +0800';
+	buildConfiguration : STRING[80] := 'Config1';
+	builder : STRING[80] := 'Brian Ng';
+END_VAR

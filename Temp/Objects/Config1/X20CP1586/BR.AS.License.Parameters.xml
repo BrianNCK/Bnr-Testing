@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /SDT=5 /DAIP=192.168.5.16 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\BnR_Testing\BnR_Testing.apj</ApjFullFileName>
+    <ProjectName>BnR_Testing</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\BnR_Testing\Temp\Objects\Config1\X20CP1586</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>
