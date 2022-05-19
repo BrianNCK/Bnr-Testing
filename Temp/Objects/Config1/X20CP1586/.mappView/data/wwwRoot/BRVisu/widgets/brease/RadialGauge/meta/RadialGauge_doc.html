@@ -1,0 +1,528 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>widgets.brease.RadialGauge Documentation</title>
+    <link href="../../../../assets/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="panel-heading"><h3>widgets.brease.RadialGauge</h3></div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Widget Description</h3></div>
+<table class="table table-bordered">
+<tbody>
+<tr>
+<td><strong>short: </strong>Zeigerinstrument rund</td>
+</tr>
+<tr>
+<td><strong>de: </strong>Zeigt einen numerischen Wert in einem Zeigerinstrument mit optionaler Skala an</td>
+</tr>
+<tr>
+<td><strong>en: </strong>Displays a numeric value in a radial gauge with an optional scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+<th>bindable</th>
+<th>readOnly</th>
+<th>required</th>
+<th>defaultValue</th>
+<th>localizable</th>
+</tr>
+ </thead>
+<tbody>
+<tr>
+<td>enable</td>
+<td>Boolean</td>
+<td>Initial option to enable widget.
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>format</td>
+<td><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.config.MeasurementSystemFormat">brease.config.MeasurementSystemFormat</a></td>
+<td><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.config.NumberFormat" rel="brease.config.NumberFormat" class="docClass">brease.config.NumberFormat</a> for every measurement system.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">{&apos;metric&apos;:{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial-us&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }}</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>majorTicks</td>
+<td>UInteger</td>
+<td>Number of major Ticks.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">5</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>maxValue</td>
+<td>Number</td>
+<td>Maximum value for gauge pointer to display.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">100</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>minValue</td>
+<td>Number</td>
+<td>Minimum value for gauge pointer to display.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">0</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>minorTicks</td>
+<td>UInteger</td>
+<td>Number of minor Ticks.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">1</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>node</td>
+<td><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.datatype.Node">brease.datatype.Node</a></td>
+<td>Display value.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>permissionOperate</td>
+<td>RoleCollection</td>
+<td>restricts operability to users, which have given roles
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>permissionView</td>
+<td>RoleCollection</td>
+<td>restricts visibility to users, which have given roles
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>range</td>
+<td>UNumber</td>
+<td>Sets the range of the Needle</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">270</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea0</td>
+<td>Integer</td>
+<td>Start of first scale area. A scale area is shown as a background color behind the minor
+and major ticks. Defined in percent of the whole scale.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">0</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea1</td>
+<td>Integer</td>
+<td>End of first scale area. A scale area is shown as a background color behind the minor and
+major ticks. This value is also used as start of the second scale area. Defined in percent of
+the whole scale. .</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">20</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea2</td>
+<td>Integer</td>
+<td>End of second scale area. A scale area is shown as a background color behind the minor
+and major ticks. This value is also used as start of the third scale area. Defined in percent
+of the whole scale.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">40</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea3</td>
+<td>Integer</td>
+<td>End of third scale area. A scale area is shown as a background color behind the minor and
+major ticks. This value is also used as start of the fourth scale area. Defined in percent of
+the whole scale.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">60</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea4</td>
+<td>Integer</td>
+<td>End of fourth scale area. A scale area is shown as a background color behind the minor
+and major ticks. This value is also used as start of the fifth scale area. Defined in percent
+of the whole scale.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">80</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleArea5</td>
+<td>Integer</td>
+<td>End of fifth scale area. A scale area is shown as a background color behind the minor and
+major ticks. Defined in percent of the whole scale.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">100</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>scaleAreaInPercent</td>
+<td>Boolean</td>
+<td>If true, the values set in the scale areas are interpreted in percent (from 0 to 100%).
+If false, the values are not intepreted as precent, so they can be set in the range between minValue and maxValue.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>showUnit</td>
+<td>Boolean</td>
+<td>Determines if the unit is displayed.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>startAngle</td>
+<td>UNumber</td>
+<td>Start angle of the whole scale in degree.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">225</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>style</td>
+<td>StyleReference</td>
+<td>reference to a style for this widget type
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">default</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>text</td>
+<td>String</td>
+<td>Text displayed next to the unit. There is a fixed maximum size and if the text exceeds the
+limit it will simply be cut off.</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;">&#x2714;</td>
+</tr>
+<tr>
+<td>tooltip</td>
+<td>String</td>
+<td>reference to a tooltip for a widget
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;">&#x2714;</td>
+</tr>
+<tr>
+<td>transitionTime</td>
+<td>UInteger</td>
+<td>Sets the animation Duration of the Needle</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">500</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>unit</td>
+<td><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.config.MeasurementSystemUnit">brease.config.MeasurementSystemUnit</a></td>
+<td>Unit code for every measurement system.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>value</td>
+<td>Number</td>
+<td>Display value.</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">0</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>visible</td>
+<td>Boolean</td>
+<td>change visibility
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>zIndex</td>
+<td>UInteger</td>
+<td>The zIndex property specifies the z-order of a widget and its childs.<br/>
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.<br/>
+        The zIndex must be unique within a content.<br/></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">&#x2714;</td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>left</td>
+<td>Integer</td>
+<td>absolute position measured from left boundary of parent container</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>top</td>
+<td>Integer</td>
+<td>absolute position measured from top boundary of parent container</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>height</td>
+<td>Size</td>
+<td>outer height of widget</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">200</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>width</td>
+<td>Size</td>
+<td>outer width of widget</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">200</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Styleable Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+<th>defaultValue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>borderWidth</td>
+<td>PixelVal</td>
+<td><p>Sets the border width of the widget. For further information, please see its type</p>
+</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>borderColor</td>
+<td>ColorCollection</td>
+<td><p>Sets the border color of the widget. For further information, please see its type</p>
+</td>
+<td>#000000</td>
+</tr>
+<tr>
+<td>borderStyle</td>
+<td>BorderStyle</td>
+<td><p>Style of the Border</p>
+</td>
+<td>solid</td>
+</tr>
+<tr>
+<td>backColor</td>
+<td>Color</td>
+<td><p>Sets the background color of the widget</p>
+</td>
+<td style="background-color:#FFFFFF;color:black;">#FFFFFF</td>
+</tr>
+<tr>
+<td>shadow</td>
+<td>Shadow</td>
+<td><p>Shadow of the Widget</p>
+</td>
+<td>none</td>
+</tr>
+<tr>
+<td>margin</td>
+<td>Margin</td>
+<td><p>Margin of the Widget</p>
+</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>backGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>backGround</td>
+<td>ImagePath</td>
+<td><p>Sets the path to an image to set it as background of the widget</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>backColorScaleArea1</td>
+<td>Color</td>
+<td><p>Sets the color background of the first scale area</p>
+</td>
+<td>transparent</td>
+</tr>
+<tr>
+<td>backColorScaleArea2</td>
+<td>Color</td>
+<td><p>Sets the color background of the second scale area</p>
+</td>
+<td>transparent</td>
+</tr>
+<tr>
+<td>backColorScaleArea3</td>
+<td>Color</td>
+<td><p>Sets the color background of the third scale area</p>
+</td>
+<td>transparent</td>
+</tr>
+<tr>
+<td>backColorScaleArea4</td>
+<td>Color</td>
+<td><p>Sets the color background of the forth scale area</p>
+</td>
+<td>transparent</td>
+</tr>
+<tr>
+<td>backColorScaleArea5</td>
+<td>Color</td>
+<td><p>Sets the color background of the fifth scale area</p>
+</td>
+<td>transparent</td>
+</tr>
+<tr>
+<td>pointerBackColor</td>
+<td>Color</td>
+<td><p>Sets the background color of the pointer</p>
+</td>
+<td style="background-color:#FFFFFF;color:black;">#FFFFFF</td>
+</tr>
+<tr>
+<td>pointerPathColor</td>
+<td>Color</td>
+<td><p>Sets the border color of the pointer</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>pointerPathWidth</td>
+<td>PixelVal</td>
+<td><p>Sets the border width of the pointer</p>
+</td>
+<td>1px</td>
+</tr>
+<tr>
+<td>textColor</td>
+<td>Color</td>
+<td><p>Sets the color of the displayed text</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>fontSize</td>
+<td>PixelVal</td>
+<td><p>Sets the height of the displayed text</p>
+</td>
+<td>10px</td>
+</tr>
+<tr>
+<td>fontName</td>
+<td>FontName</td>
+<td><p>Sets the font name of the displayed text</p>
+</td>
+<td>Arial</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+ <script src="../../../../jquery.js"></script>
+ <script src="../../../../assets/js/bootstrap.min.js"></script>
+</body>
+</html>

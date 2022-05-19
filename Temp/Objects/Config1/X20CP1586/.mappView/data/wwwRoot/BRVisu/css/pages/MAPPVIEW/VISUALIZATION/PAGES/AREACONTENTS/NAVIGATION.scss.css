@@ -1,0 +1,65 @@
+#NavigationContent_NavigationBar1 {
+  top: 0px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationBar1 {
+  left: 0px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationBar1 {
+  width: 100px;
+}
+
+#NavigationContent_NavigationBar1 {
+  height: 600px;
+}
+
+#NavigationContent_NavigationBar1 {
+  z-index: 0;
+}
+
+#NavigationContent_NavigationButton1 {
+  width: 100px;
+}
+
+#NavigationContent_NavigationButton1 {
+  top: 120px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationButton1 {
+  left: 0px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationButton1 {
+  height: 80px;
+}
+
+#NavigationContent_NavigationButton1 {
+  z-index: 0;
+}
+
+#NavigationContent_NavigationButton2 {
+  width: 100px;
+}
+
+#NavigationContent_NavigationButton2 {
+  top: 300px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationButton2 {
+  left: 0px;
+  position: absolute;
+}
+
+#NavigationContent_NavigationButton2 {
+  height: 80px;
+}
+
+#NavigationContent_NavigationButton2 {
+  z-index: 1;
+}

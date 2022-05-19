@@ -15,8 +15,11 @@
     </Columns>
     <ExpandedNodes>
       <ExpandedNode Row="0" />
-      <ExpandedNode Row="7" />
+      <ExpandedNode Row="4" />
+      <ExpandedNode Row="8" />
       <ExpandedNode Row="14" />
+      <ExpandedNode Row="18" />
+      <ExpandedNode Row="25" />
     </ExpandedNodes>
     <SelectedNodes>
       <SelectedNode Row="0" />
@@ -38,7 +41,13 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
-  <TreeView ID="C:\projects\Bnr Testing\BnR_Testing\Logical\RevInfo\RevInfo.var" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+  <TextEdit ID="C:\projects\BnR_Testing\Logical\mappView\Layouts\Layout.layout" CaretLine="7" CaretColumn="6" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\projects\BnR_Testing\Logical\mappView\Visualization\Layouts\Layout.layout" CaretLine="7" CaretColumn="15" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo.var" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="200" Position="0" />
       <Column Index="1" Width="100" Position="1" />
@@ -53,9 +62,7 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes>
-      <SelectedNode Row="0" />
-    </SelectedNodes>
+    <SelectedNodes />
     <ZoomIndices />
   </TreeView>
 </State>

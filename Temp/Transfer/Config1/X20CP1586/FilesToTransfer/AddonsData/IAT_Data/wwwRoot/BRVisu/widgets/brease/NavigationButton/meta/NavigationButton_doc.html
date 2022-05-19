@@ -1,0 +1,625 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>widgets.brease.NavigationButton Documentation</title>
+    <link href="../../../../assets/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="panel-heading"><h3>widgets.brease.NavigationButton</h3></div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Widget Description</h3></div>
+<table class="table table-bordered">
+<tbody>
+<tr>
+<td><strong>short: </strong>Button zum Seitenwechsel</td>
+</tr>
+<tr>
+<td><strong>de: </strong>Löst einen Seitenwechsel auf eine zugeordnete Seite aus wenn der Benutzer darauf klickt</td>
+</tr>
+<tr>
+<td><strong>en: </strong>Initiates an change to an associated page when the user clicks  it</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+<th>bindable</th>
+<th>readOnly</th>
+<th>required</th>
+<th>defaultValue</th>
+<th>localizable</th>
+</tr>
+ </thead>
+<tbody>
+<tr>
+<td>breakWord</td>
+<td>Boolean</td>
+<td>Allows lines to be broken within words if an otherwise unbreakable string is too long to fit.
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>ellipsis</td>
+<td>Boolean</td>
+<td>If true, overflow of text is symbolized with an ellipsis. This option has no effect, if wordWrap = true.
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>enable</td>
+<td>Boolean</td>
+<td>Initial option to enable widget.
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>image</td>
+<td>ImagePath</td>
+<td>Path to an optional image.
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>imageAlign</td>
+<td><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.enum.ImageAlign">brease.enum.ImageAlign</a></td>
+<td>Position of image relative to text.
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">left</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>isToggle</td>
+<td>Boolean</td>
+<td>Set this option to false, if you want to prevent Button from toggling
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>mouseDownImage</td>
+<td>ImagePath</td>
+<td>Path to an optional image to be shown in 'checked' state.
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>mouseDownText</td>
+<td>String</td>
+<td>Text which is displayed in the button when pressed
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;">&#x2714;</td>
+</tr>
+<tr>
+<td>multiLine</td>
+<td>Boolean</td>
+<td>If true, more than one line is possible.<br/>
+Text will wrap when necessary (if property wordWrap is set to true) or at explicit line breaks (\n).
+If false, text will never wrap to the next line. The text continues on the same line.
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>pageId</td>
+<td>PageReference</td>
+<td>pageId of page to load (page is loaded to root container! not suitable for nested pages)
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">&#x2714;</td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>permissionOperate</td>
+<td>RoleCollection</td>
+<td>restricts operability to users, which have given roles
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>permissionView</td>
+<td>RoleCollection</td>
+<td>restricts visibility to users, which have given roles
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>style</td>
+<td>StyleReference</td>
+<td>reference to a style for this widget type
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">default</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>text</td>
+<td>String</td>
+<td>Text which is displayed in the button
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;">&#x2714;</td>
+</tr>
+<tr>
+<td>tooltip</td>
+<td>String</td>
+<td>reference to a tooltip for a widget
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;">&#x2714;</td>
+</tr>
+<tr>
+<td>value</td>
+<td>Boolean</td>
+<td>Represents the boolean state of the element.
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>visible</td>
+<td>Boolean</td>
+<td>change visibility
+</td>
+<td align="center" style="color:green;font-weight:bold;">&#x2714;</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">true</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>wordWrap</td>
+<td>Boolean</td>
+<td>If true, text will wrap when necessary.<br/>
+This property has no effect, if multiLine=false
+</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">false</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>imageHeight</td>
+<td>ImageSize</td>
+<td>height of the image</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">0</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>imageWidth</td>
+<td>ImageSize</td>
+<td>width of the image</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">0</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>zIndex</td>
+<td>UInteger</td>
+<td>The zIndex property specifies the z-order of a widget and its childs.<br/>
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.<br/>
+        The zIndex must be unique within a content.<br/></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">&#x2714;</td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>left</td>
+<td>Integer</td>
+<td>absolute position measured from left boundary of parent container</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>top</td>
+<td>Integer</td>
+<td>absolute position measured from top boundary of parent container</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>height</td>
+<td>Size</td>
+<td>outer height of widget</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">30</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+<tr>
+<td>width</td>
+<td>Size</td>
+<td>outer width of widget</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">100</td>
+<td style="color:green;font-weight:bold;text-align:center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Styleable Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+<th>defaultValue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>imageColor</td>
+<td>Color</td>
+<td><p>Color of the image - only apply if a SVG image is used</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>mouseDownImageColor</td>
+<td>Color</td>
+<td><p>Color of the image - only apply if a SVG image is used</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>disabledImageColor</td>
+<td>Color</td>
+<td><p>Color of the image - only apply if a SVG image is used</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>borderStyle</td>
+<td>BorderStyle</td>
+<td><p>Style of the Border of the widget</p>
+</td>
+<td>solid</td>
+</tr>
+<tr>
+<td>borderWidth</td>
+<td>PixelValCollection</td>
+<td><p>Sets the width of the border. For further information, please check its type</p>
+</td>
+<td>2px</td>
+</tr>
+<tr>
+<td>cornerRadius</td>
+<td>PixelValCollection</td>
+<td><p>Sets the radius of the widget rounded corners. For further information, please check its type</p>
+</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>backColor</td>
+<td>Color</td>
+<td><p>Sets the background color of the widget</p>
+</td>
+<td style="background-color:#DBDBDB;color:black;">#DBDBDB</td>
+</tr>
+<tr>
+<td>disabledBackColor</td>
+<td>Color</td>
+<td><p>Sets the background color when disabled</p>
+</td>
+<td style="background-color:#F1F1F1;color:black;">#F1F1F1</td>
+</tr>
+<tr>
+<td>backGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>disabledBackGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>mouseDownBackGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient when widget is clicked</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>backGround</td>
+<td>ImagePath</td>
+<td><p>Sets the path for an image as background</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>borderColor</td>
+<td>ColorCollection</td>
+<td><p>Sets the border color of the widget. For further information, please see its type</p>
+</td>
+<td>#5B7C70</td>
+</tr>
+<tr>
+<td>disabledBorderColor</td>
+<td>ColorCollection</td>
+<td><p>Sets the color of the border when disabled</p>
+</td>
+<td>#FFFFFF #C8C8C8 #C8C8C8 #FFFFFF</td>
+</tr>
+<tr>
+<td>textColor</td>
+<td>Color</td>
+<td><p>Sets the color of the text when enabled</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>disabledTextColor</td>
+<td>Color</td>
+<td><p>Sets the color of the text when disabled</p>
+</td>
+<td style="background-color:#989898;color:black;">#989898</td>
+</tr>
+<tr>
+<td>mouseDownBorderColor</td>
+<td>ColorCollection</td>
+<td><p>border color when button is pressed</p>
+</td>
+<td>#FD7B01</td>
+</tr>
+<tr>
+<td>mouseDownBorderWidth</td>
+<td>PixelValCollection</td>
+<td><p>border width when widget is clicked</p>
+</td>
+<td>2px</td>
+</tr>
+<tr>
+<td>mouseDownBackColor</td>
+<td>Color</td>
+<td><p>back color when button is pressed</p>
+</td>
+<td style="background-color:#DBDBDB;color:black;">#DBDBDB</td>
+</tr>
+<tr>
+<td>mouseDownTextColor</td>
+<td>Color</td>
+<td><p>text color when widget is clicked</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>textAlign</td>
+<td>brease.enum.TextAlign</td>
+<td><p>Alignment of the text</p>
+</td>
+<td>center</td>
+</tr>
+<tr>
+<td>opacity</td>
+<td>Opacity</td>
+<td><p>Opacity of the widget</p>
+</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rotation</td>
+<td>Rotation</td>
+<td><p>Rotation of widget.</p>
+</td>
+<td>0deg</td>
+</tr>
+<tr>
+<td>fontSize</td>
+<td>PixelVal</td>
+<td><p>Fontsize of the text in pixel</p>
+</td>
+<td>12px</td>
+</tr>
+<tr>
+<td>fontName</td>
+<td>FontName</td>
+<td><p>Fontname of the text</p>
+</td>
+<td>Arial</td>
+</tr>
+<tr>
+<td>bold</td>
+<td>Boolean</td>
+<td><p>If <em>true</em> font style is bold</p>
+</td>
+<td>false</td>
+</tr>
+<tr>
+<td>italic</td>
+<td>Boolean</td>
+<td><p>If <em>true</em> font style is italic</p>
+</td>
+<td>false</td>
+</tr>
+<tr>
+<td>padding</td>
+<td>Padding</td>
+<td><p>Padding of the Widget</p>
+</td>
+<td>0px 10px</td>
+</tr>
+<tr>
+<td>margin</td>
+<td>Margin</td>
+<td><p>Margin of the Widget</p>
+</td>
+<td>0px</td>
+</tr>
+<tr>
+<td>shadow</td>
+<td>Shadow</td>
+<td><p>Shadow of the Widget</p>
+</td>
+<td>none</td>
+</tr>
+<tr>
+<td>mouseDownShadow</td>
+<td>Shadow</td>
+<td><p>Shadow of the Widget when button clicked</p>
+</td>
+<td>none</td>
+</tr>
+<tr>
+<td>checkedBackColor</td>
+<td>Color</td>
+<td><p>back color when button is checked</p>
+</td>
+<td style="background-color:#DBDBDB;color:black;">#DBDBDB</td>
+</tr>
+<tr>
+<td>checkedTextColor</td>
+<td>Color</td>
+<td><p>text color when button is checked</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>checkedImageColor</td>
+<td>Color</td>
+<td><p>Color of the image when the button is checked - only apply if a SVG image is used</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>disabledCheckedTextColor</td>
+<td>Color</td>
+<td><p>text color when button is checked and disabled</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>disabledCheckedImageColor</td>
+<td>Color</td>
+<td><p>Color of the image when the button is checked - only apply if a SVG image is used</p>
+</td>
+<td style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td>checkedBorderColor</td>
+<td>ColorCollection</td>
+<td><p>border color when button is checked</p>
+</td>
+<td>#FD7B01</td>
+</tr>
+<tr>
+<td>disabledCheckedBackColor</td>
+<td>Color</td>
+<td><p>back color when button is checked and disabled</p>
+</td>
+<td style="background-color:#F1F1F1;color:black;">#F1F1F1</td>
+</tr>
+<tr>
+<td>disabledCheckedBorderColor</td>
+<td>ColorCollection</td>
+<td><p>border color when button is checked and disabled</p>
+</td>
+<td>#FFFFFF #C8C8C8 #C8C8C8 #FFFFFF</td>
+</tr>
+<tr>
+<td>checkedBackGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient</p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>disabledCheckedBackGroundGradient</td>
+<td>Gradient</td>
+<td><p>Background as a gradient</p>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+ <script src="../../../../jquery.js"></script>
+ <script src="../../../../assets/js/bootstrap.min.js"></script>
+</body>
+</html>

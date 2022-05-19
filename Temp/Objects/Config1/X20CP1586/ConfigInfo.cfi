@@ -8,7 +8,24 @@
   <TaskClass
     Name="Cyclic#3" />
   <TaskClass
-    Name="Cyclic#4" />
+    Name="Cyclic#4">
+    <Task
+      Name="Program"
+      Disable="false"
+      Source="Program"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\BnR_Testing\Temp\Objects\Config1\X20CP1586\Program\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\projects\BnR_Testing\Temp\Objects\Config1\X20CP1586\Program\Init.st.var" />
+      <InternalFile
+        Path="C:\projects\BnR_Testing\Temp\Objects\Config1\X20CP1586\Program\Exit.st.var" />
+      <File
+        Path="C:\projects\BnR_Testing\Logical\Program\Types.typ" />
+      <File
+        Path="C:\projects\BnR_Testing\Logical\Program\Variables.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#5" />
   <TaskClass
