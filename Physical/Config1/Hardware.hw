@@ -1,5 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.6.3.55?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
-  <Module Name="X20CP1586" Type="X20CP1586" Version="1.5.0.0" />
+  <Module Name="ModbusTcp_any" Type="ModbusTcp_any" Version="1.0.6.0">
+    <Connection Connector="ETH1" TargetModule="X20CP1586" TargetConnector="IF2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+  </Module>
+  <Module Name="X20CP1586" Type="X20CP1586" Version="1.5.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="BnR_Testing_Config1" />
+  </Module>
 </Hardware>

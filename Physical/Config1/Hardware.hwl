@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
+    <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="250" Y="249" />
+  </Modules>
+  <Links>
+    <Link From="X20CP1586" To="ModbusTcp_any" FromPort="IF2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="132" Y="187" />
+      <Point X="132" Y="187" />
+      <Point X="132" Y="200" />
+      <Point X="132" Y="305" />
+      <Point X="284" Y="305" />
+      <Point X="284" Y="300" />
+      <Point X="284" Y="293" />
+      <Point X="284" Y="293" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>
