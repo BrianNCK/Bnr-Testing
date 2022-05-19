@@ -1,18 +1,15 @@
-Thu May 19 16:33:56 2022
+Thu May 19 16:43:02 2022
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Thu May 19 16:33:56 2022
+Thu May 19 16:43:02 2022
 No ARsim registration found!
 
-Thu May 19 16:33:56 2022
-InstanceName: 01d86b5b2df24e00
+Thu May 19 16:43:02 2022
+InstanceName: 01d86b5c734080c0
 
-Thu May 19 16:33:56 2022
+Thu May 19 16:43:02 2022
 WorkingDirectory: C:\projects\BnR_Testing\Temp\Simulation\Config1\X20CP1586\
 
-Thu May 19 16:33:56 2022
+Thu May 19 16:43:02 2022
 COMMAND_COLDSTART
-
-Thu May 19 16:33:58 2022
-Version: B4.63
 
