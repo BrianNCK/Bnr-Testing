@@ -5,6 +5,9 @@
     <Columns>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> PLC
 =======
 >>>>>>> PLC
       <Column Index="0" Width="0" Position="0" />
@@ -13,6 +16,7 @@
       <Column Index="3" Width="190" Position="3" />
       <Column Index="4" Width="0" Position="4" />
       <Column Index="5" Width="0" Position="5" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       <Column Index="0" Width="130" Position="0" />
@@ -49,6 +53,8 @@
 >>>>>>> HMI
 =======
 >>>>>>> PLC
+=======
+>>>>>>> PLC
       <Column Index="6" Width="0" Position="6" />
       <Column Index="7" Width="216" Position="7" />
       <Column Index="8" Width="0" Position="8" />
@@ -67,6 +73,9 @@
   </TreeView>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+  <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+=======
   <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
 =======
   <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -89,6 +98,28 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
+  <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo.var" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+>>>>>>> PLC
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="132" Position="2" />
+      <Column Index="3" Width="114" Position="3" />
+      <Column Index="4" Width="86" Position="4" />
+      <Column Index="5" Width="134" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+<<<<<<< HEAD
   <TreeView ID="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo.var" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
 >>>>>>> PLC
     <Columns>
@@ -137,6 +168,8 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
+=======
+>>>>>>> PLC
 =======
 >>>>>>> PLC
   <TreeView ID="C:\projects\BnR_Testing\Logical\Global.var" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
