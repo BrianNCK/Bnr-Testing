@@ -3,9 +3,11 @@
   <Modules>
     <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
     <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="250" Y="249" />
+    <Module Name="ModbusTcp_any1" Type="ModbusTcp_any" X="390" Y="249" />
+    <Module Name="ModbusTcp_any2" Type="ModbusTcp_any" X="530" Y="249" />
   </Modules>
   <Links>
-    <Link From="X20CP1586" To="ModbusTcp_any" FromPort="IF2" ToPort="ETH1" IsRoutedByUser="False">
+    <Link From="ModbusTcp_any" To="X20CP1586" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
       <Point X="132" Y="187" />
       <Point X="132" Y="187" />
       <Point X="132" Y="200" />
@@ -14,6 +16,26 @@
       <Point X="284" Y="300" />
       <Point X="284" Y="293" />
       <Point X="284" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_any" To="ModbusTcp_any1" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="309" Y="293" />
+      <Point X="309" Y="293" />
+      <Point X="309" Y="300" />
+      <Point X="309" Y="305" />
+      <Point X="424" Y="305" />
+      <Point X="424" Y="300" />
+      <Point X="424" Y="293" />
+      <Point X="424" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_any1" To="ModbusTcp_any2" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="449" Y="293" />
+      <Point X="449" Y="293" />
+      <Point X="449" Y="300" />
+      <Point X="449" Y="305" />
+      <Point X="564" Y="305" />
+      <Point X="564" Y="300" />
+      <Point X="564" Y="293" />
+      <Point X="564" Y="293" />
     </Link>
   </Links>
   <InfoElements />

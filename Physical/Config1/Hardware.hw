@@ -5,6 +5,22 @@
     <Connection Connector="ETH1" TargetModule="X20CP1586" TargetConnector="IF2">
       <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
     </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_any1" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+  </Module>
+  <Module Name="ModbusTcp_any1" Type="ModbusTcp_any" Version="1.0.6.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_any" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_any2" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+  </Module>
+  <Module Name="ModbusTcp_any2" Type="ModbusTcp_any" Version="1.0.6.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_any1" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
   </Module>
   <Module Name="X20CP1586" Type="X20CP1586" Version="1.5.0.0">
     <Connector Name="IF2">
