@@ -10,6 +10,7 @@
     <ExpandedNodes>
       <ExpandedNode Row="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     </ExpandedNodes>
     <SelectedNodes>
       <SelectedNode Row="1" />
@@ -31,6 +32,11 @@
     <SelectedNodes>
       <SelectedNode Row="42" />
 >>>>>>> HMI
+=======
+    </ExpandedNodes>
+    <SelectedNodes>
+      <SelectedNode Row="1" />
+>>>>>>> PLC
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
