@@ -5,7 +5,7 @@
     Path="C:\projects\BnR_Testing\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="132974028818241043" />
+    LastWriteTime="132974200057018345" />
   <Object
     Path="C:\projects\BnR_Testing\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -22,7 +22,7 @@
     Path="C:\projects\BnR_Testing\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="132974051189473246" />
+    LastWriteTime="132974160723169871" />
   <Object
     Path="C:\projects\BnR_Testing\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -153,7 +153,7 @@
     Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo.var"
     LogicalPath="RevInfo.RevInfo.var"
     Type="File"
-    LastWriteTime="132974150196219850"
+    LastWriteTime="132974207238226601"
     Private="true" />
   <Object
     Path="C:\projects\BnR_Testing\Logical\RevInfo\RevInfo\IEC.prg"
@@ -179,6 +179,182 @@
     LastWriteTime="132806139480000000"
     Private="true" />
   <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="132974164605826913" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="132974182615599063" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="132974162277996897" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="132974162278166440" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="132974162278066707" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="132974162278096627" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="132974162278126549" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="132974162278166440" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="132974164605816938" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="132974168268331055" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="132974165718186916" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\AreaContents\Navigation.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Navigation.content"
+    Type="File"
+    LastWriteTime="132974193233111742"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page1\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Page1"
+    Type="Package"
+    LastWriteTime="132974185203319204" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page1\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Page1.Page.page"
+    Type="File"
+    LastWriteTime="132974194557431796"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page1\page1.content"
+    LogicalPath="mappView.Visualization.Pages.Page1.page1.content"
+    Type="File"
+    LastWriteTime="132974202840608123"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page2\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Page2"
+    Type="Package"
+    LastWriteTime="132974185359304093" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page2\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Page2.Page.page"
+    Type="File"
+    LastWriteTime="132974195729539846"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Pages\Page2\page2.content"
+    LogicalPath="mappView.Visualization.Pages.Page2.page2.content"
+    Type="File"
+    LastWriteTime="132974203697204594"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="132974164605577580" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="132974164605607501" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="132974169552786912" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Layouts\Layout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Layout.layout"
+    Type="File"
+    LastWriteTime="132974170300327393"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="132974164605707348" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="132974164605697259" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="132974164605806965" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="132974164605777044" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="132974164605806965" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\IEC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="132974200057008371" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\Cyclic.st"
+    LogicalPath="Program.Cyclic.st"
+    Type="File"
+    LastWriteTime="132974200056908644"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\Init.st"
+    LogicalPath="Program.Init.st"
+    Type="File"
+    LastWriteTime="132974200908989984"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\Exit.st"
+    LogicalPath="Program.Exit.st"
+    Type="File"
+    LastWriteTime="132974200056958517"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="132974200056978464"
+    Private="true" />
+  <Object
+    Path="C:\projects\BnR_Testing\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="132974205779280501"
+    Private="true" />
+  <Object
     Path="C:\projects\BnR_Testing\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
     Type="Configuration.ParentUnknown"
@@ -187,7 +363,7 @@
     Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="132974021436375200"
+    LastWriteTime="132974204658697892"
     Private="false" />
   <Object
     Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.hwl"
@@ -204,7 +380,7 @@
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Cpu.sw"
     LogicalPath="Config1.X20CP1586.Cpu.sw"
     Type="File"
-    LastWriteTime="132974051190479854"
+    LastWriteTime="132974200057337508"
     Private="false" />
   <Object
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Cpu.per"
@@ -233,7 +409,13 @@
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Connectivity\OpcUA\Package.pkg"
     LogicalPath="Config1.X20CP1586.Connectivity.OpcUA"
     Type="Package"
-    LastWriteTime="132974021437867475" />
+    LastWriteTime="132974201111881834" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="132974207013400284"
+    Private="false" />
   <Object
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\TextSystem\Package.pkg"
     LogicalPath="Config1.X20CP1586.TextSystem"
@@ -341,7 +523,25 @@
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappView\Package.pkg"
     LogicalPath="Config1.X20CP1586.mappView"
     Type="Package"
-    LastWriteTime="132974021438665337" />
+    LastWriteTime="132974196374804403" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.X20CP1586.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="132974196230442744"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappView\Visualizat.vis"
+    LogicalPath="Config1.X20CP1586.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="132974198237238721"
+    Private="false" />
+  <Object
+    Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappView\Binding.binding"
+    LogicalPath="Config1.X20CP1586.mappView.Binding.binding"
+    Type="File"
+    LastWriteTime="132974203327506706"
+    Private="false" />
   <Object
     Path="C:\projects\BnR_Testing\Physical\Config1\X20CP1586\mappCockpit\Package.pkg"
     LogicalPath="Config1.X20CP1586.mappCockpit"
@@ -351,6 +551,6 @@
     Path="C:\projects\BnR_Testing\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="132974150177966777"
+    LastWriteTime="132974181574796664"
     Private="false" />
 </Objects>

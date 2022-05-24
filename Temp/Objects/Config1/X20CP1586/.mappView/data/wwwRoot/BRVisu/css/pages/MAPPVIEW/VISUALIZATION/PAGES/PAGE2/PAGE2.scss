@@ -1,0 +1,36 @@
+﻿@import "mixins.scss";
+#Page2Content_NumericOutput1 {
+	@include elemWidth(100);
+}
+#Page2Content_NumericOutput1 {
+	@include elemHeight(30);
+}
+#Page2Content_NumericOutput1 {
+	@include elemTop(120);
+}
+#Page2Content_NumericOutput1 {
+	@include elemLeft(140);
+}
+#Page2Content_NumericOutput1 {
+		z-index: 0;
+}
+#Page2Content_NumericOutput1 {
+	input{
+	@include font-weight-bold(true);
+	}
+}
+#Page2Content_Label1 {
+	@include elemHeight(30);
+}
+#Page2Content_Label1 {
+	@include elemTop(40);
+}
+#Page2Content_Label1 {
+	@include elemLeft(100);
+}
+#Page2Content_Label1 {
+	@include elemWidth(200);
+}
+#Page2Content_Label1 {
+		z-index: 1;
+}
