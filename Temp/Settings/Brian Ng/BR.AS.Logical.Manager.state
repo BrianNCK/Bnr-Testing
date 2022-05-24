@@ -10,13 +10,7 @@
     <ExpandedNodes>
       <ExpandedNode Row="0" />
     </ExpandedNodes>
-    <SelectedNodes>
-<<<<<<< HEAD
-      <SelectedNode Row="0" />
-=======
-      <SelectedNode Row="5" />
->>>>>>> HMI
-    </SelectedNodes>
+    <SelectedNodes />
     <ZoomIndices />
   </TreeView>
 </State>
