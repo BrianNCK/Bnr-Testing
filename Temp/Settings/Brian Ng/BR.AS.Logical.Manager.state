@@ -11,7 +11,11 @@
       <ExpandedNode Row="0" />
     </ExpandedNodes>
     <SelectedNodes>
+<<<<<<< HEAD
       <SelectedNode Row="1" />
+=======
+      <SelectedNode Row="0" />
+>>>>>>> main
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>

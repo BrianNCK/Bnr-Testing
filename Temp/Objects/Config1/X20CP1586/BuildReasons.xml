@@ -1,66 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\arconfig.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\udbdef.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\ashwac.br">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\iat_media.job._markerfile">
+    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\main.st.o">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\revinfo\revinfo.var" differs.
+</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\tcdata\tcdata.imx">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\cyclic.st.o">
+    <BuildReason>Newest Prerequisite 2022-05-19 15:56:17 newer than target 2022-05-19 15:54:48.
+</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\asbrstr.br">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\.mappview\data\server\binding_0.binding._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x20cp1586\connectivity\opcua\opcuamap.uad" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\opcuamap\opcuamap.uar.gz">
+    <BuildReason>Target "opcuamap.uar.gz" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\main.st.o" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\a.out">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\exit.st.o">
+    <BuildReason>Newest Prerequisite 2022-05-19 15:56:17 newer than target 2022-05-19 15:54:50.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\cyclic.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\cyclic.st.o" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\revinfo.ox">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\program.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program\program.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\.mappview\data\wwwroot\firstvisu.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\.mappview\data\server\binding_0.binding._markerfile" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo.br">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\revinfo\revinfo.ox" differs.
+</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\tcdata\tcdata.s18d">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\role.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\user.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\fwrules.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\iomap.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\sysconf.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\asfw.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\ashwd.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\tcdata.br">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp1586\transfer.lst">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1586\program.br" differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

@@ -1,0 +1,43 @@
+#Page1Content_RadialGauge1 {
+  width: 200px;
+}
+
+#Page1Content_RadialGauge1 {
+  height: 200px;
+}
+
+#Page1Content_RadialGauge1 {
+  top: 140px;
+  position: absolute;
+}
+
+#Page1Content_RadialGauge1 {
+  left: 260px;
+  position: absolute;
+}
+
+#Page1Content_RadialGauge1 {
+  z-index: 0;
+}
+
+#Page1Content_Label1 {
+  width: 80px;
+}
+
+#Page1Content_Label1 {
+  height: 30px;
+}
+
+#Page1Content_Label1 {
+  top: 60px;
+  position: absolute;
+}
+
+#Page1Content_Label1 {
+  left: 180px;
+  position: absolute;
+}
+
+#Page1Content_Label1 {
+  z-index: 1;
+}

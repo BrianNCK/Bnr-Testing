@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="5" ArVersion="B4.63">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Program">
+        <Variable Name="Speed" />
+        <Variable Name="Temperature" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

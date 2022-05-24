@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Page2Content" height="600" width="700" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="120" left="140" zIndex="0" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="100" width="200" zIndex="1" text="Temperature" />
+  </Widgets>
+</Content>

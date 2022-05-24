@@ -1,0 +1,47 @@
+#Page2Content_NumericOutput1 {
+  width: 100px;
+}
+
+#Page2Content_NumericOutput1 {
+  height: 30px;
+}
+
+#Page2Content_NumericOutput1 {
+  top: 120px;
+  position: absolute;
+}
+
+#Page2Content_NumericOutput1 {
+  left: 140px;
+  position: absolute;
+}
+
+#Page2Content_NumericOutput1 {
+  z-index: 0;
+}
+
+#Page2Content_NumericOutput1 input {
+  font-weight: bold;
+}
+
+#Page2Content_Label1 {
+  height: 30px;
+}
+
+#Page2Content_Label1 {
+  top: 40px;
+  position: absolute;
+}
+
+#Page2Content_Label1 {
+  left: 100px;
+  position: absolute;
+}
+
+#Page2Content_Label1 {
+  width: 200px;
+}
+
+#Page2Content_Label1 {
+  z-index: 1;
+}
