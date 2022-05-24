@@ -15,12 +15,8 @@
       <Column Index="9" Width="100" Position="9" />
       <Column Index="10" Width="0" Position="10" />
     </Columns>
-    <ExpandedNodes>
-      <ExpandedNode Row="0" />
-    </ExpandedNodes>
-    <SelectedNodes>
-      <SelectedNode Row="0" />
-    </SelectedNodes>
+    <ExpandedNodes />
+    <SelectedNodes />
     <ZoomIndices />
   </TreeView>
 </State>
