@@ -12,12 +12,10 @@
       <ExpandedNode Row="5" />
       <ExpandedNode Row="9" />
       <ExpandedNode Row="10" />
+      <ExpandedNode Row="12" />
     </ExpandedNodes>
     <SelectedNodes>
-      <SelectedNode Row="10" />
-    </ExpandedNodes>
-    <SelectedNodes>
-      <SelectedNode Row="5" />
+      <SelectedNode Row="14" />
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
