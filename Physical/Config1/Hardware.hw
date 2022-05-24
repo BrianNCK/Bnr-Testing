@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> PLC
 =======
@@ -42,6 +43,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> HMI
   <Module Name="X20CP1586" Type="X20CP1586" Version="1.5.0.0">
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
@@ -50,10 +53,13 @@
     <Parameter ID="Simulation" Value="1" />
     <Parameter ID="ActivateOpcUa" Value="1" />
     <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+<<<<<<< HEAD
 >>>>>>> HMI
 =======
 >>>>>>> PLC
 =======
 >>>>>>> PLC
+=======
+>>>>>>> HMI
   </Module>
 </Hardware>
