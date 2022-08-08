@@ -4,4 +4,4 @@
 		<Area id="AreaMain" height="600" width="700" left="0" top="0" />
 		<Area id="AreaNavigation" height="600" width="100" left="700" top="0" />
   </Areas>
-</ldef:Layout>
+	</ldef:Layout>
